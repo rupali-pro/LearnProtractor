@@ -13,7 +13,7 @@ exports.config = {
         
     },
     framework: 'jasmine',
-    specs:['../tests/amazonSearchTest.js'],
+    specs:['../tests/*.js'],
     //SELENIUM_PROMISE_MANAGER : false,
 
     // Setup the report before any tests start

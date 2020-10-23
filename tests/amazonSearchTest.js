@@ -10,7 +10,7 @@ describe('dynamic search test', function(){
        amazonSearchPage.getUrl("https://www.amazon.com/");
     });
 
-    it('amazon dynamic search test', function(){
+    xit('amazon dynamic search test', function(){
 
         amazonSearchPage.findoutSuggestionList1("javascript", "javascript book");
         browser.sleep(5000);
